@@ -4,7 +4,6 @@
     <el-card shadow="always">
       <el-breadcrumb separator-class="el-icon-arrow-right">
         <el-breadcrumb-item :to="{ path: '/execl/export-excel' }">execl</el-breadcrumb-item>
-<<<<<<< HEAD
         <el-breadcrumb-item>Export Selected</el-breadcrumb-item>
       </el-breadcrumb>
     </el-card>
@@ -70,17 +69,10 @@
         </el-table>
       </el-card>
     </el-scrollbar>
-
-=======
-        <el-breadcrumb-item>export-select-execl</el-breadcrumb-item>
-      </el-breadcrumb>
-    </el-card>export select execl
->>>>>>> 9609112910f7266fda051336ec71aa22593f1a29
   </div>
 </template>
 
 <script>
-<<<<<<< HEAD
 import { addressList } from '@/api/comment'
 
 export default {
@@ -140,10 +132,6 @@ export default {
   }
 }
 </script>
-=======
-export default {};
-</script>
 
 <style lang="scss" scoped>
 </style>
->>>>>>> 9609112910f7266fda051336ec71aa22593f1a29

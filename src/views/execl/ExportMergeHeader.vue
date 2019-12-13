@@ -4,11 +4,7 @@
     <el-card class="breadcrumb" shadow="always">
       <el-breadcrumb separator-class="el-icon-arrow-right">
         <el-breadcrumb-item :to="{ path: '/execl/export-excel' }">execl</el-breadcrumb-item>
-<<<<<<< HEAD
         <el-breadcrumb-item>Export Header</el-breadcrumb-item>
-=======
-        <el-breadcrumb-item>export-merge-header</el-breadcrumb-item>
->>>>>>> 9609112910f7266fda051336ec71aa22593f1a29
       </el-breadcrumb>
     </el-card>
 
@@ -77,11 +73,7 @@ export default {
     fetchData() {
       this.listLoading = true;
       fetchList(this.listQuery).then(response => {
-<<<<<<< HEAD
-        // console.log(response);
-=======
         console.log(response);
->>>>>>> 9609112910f7266fda051336ec71aa22593f1a29
         this.list = response;
         this.listLoading = false;
       });
